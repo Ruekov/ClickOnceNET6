@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<AssemblyVersion>1.0.0.44</AssemblyVersion>
+		<FileVersion>1.0.0.44</FileVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ClickOnceNet6\ClickOnceNet6.csproj" />
+	</ItemGroup>
+
+</Project>
